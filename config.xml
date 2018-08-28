@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.dealerCall"
+    version     = "1.0.0" >
+
+  <name>Dealer Call</name>
+
+  <description>
+      Enter your five-card poker hand and the app calls your best.
+  </description>
+
+  <author href="https://build.phonegap.com" email="clstewart@kryptcorp.com">
+      Casey Stewart
+  </author>
+
+</widget>

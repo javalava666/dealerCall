@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Dealer Call!</title>
+  <link rel="stylesheet" href="index.css"/>
+  <link rel="icon" href="icon.ico"/>
+</head>
+<body>
+  <p> 
+    Select the value and suit of each card in the poker hand you want called,<br>
+    push the &quot;Call Best&quot; button: Hand Analyzer will call your best.<br>
+  </p>
+  <table>
+  <tr>
+  <td>
+  <select id="va1" value="02">
+    <option value="14"         >Ace  </option>
+    <option value="13"         >King </option>
+    <option value="12"         >Queen</option>
+    <option value="11"         >Jack </option>
+    <option value="10"         >Ten  </option>
+    <option value="09"         >Nine </option>
+    <option value="08"         >Eight</option>
+    <option value="07"         >Seven</option>
+    <option value="06"         >Six  </option>
+    <option value="05"         >Five </option>
+    <option value="04"         >Four </option>
+    <option value="03"         >Three</option>
+    <option value="02" selected>Two  </option>
+  </select><br>
+  <select id="su1" value="a">
+    <option value="a">Hearts    </option>
+    <option value="c">Clubs     </option>
+    <option value="d">Diamonds  </option>
+    <option value="s">Spades    </option>
+  </select>
+  </td>
+  <td>    
+  <select id="va2" value="03">
+    <option value="14"         >Ace  </option>
+    <option value="13"         >King </option>
+    <option value="12"         >Queen</option>
+    <option value="11"         >Jack </option>
+    <option value="10"         >Ten  </option>
+    <option value="09"         >Nine </option>
+    <option value="08"         >Eight</option>
+    <option value="07"         >Seven</option>
+    <option value="06"         >Six  </option>
+    <option value="05"         >Five </option>
+    <option value="04"         >Four </option>
+    <option value="03" selected>Three</option>
+    <option value="02"         >Two  </option>
+  </select><br>
+  <select id="su2" value="a">
+    <option value="a">Hearts    </option>
+    <option value="c">Clubs     </option>
+    <option value="d">Diamonds  </option>
+    <option value="s">Spades    </option>
+  </select>
+  </td>
+  <td>
+  <select id="va3" value="04">
+    <option value="14"         >Ace  </option>
+    <option value="13"         >King </option>
+    <option value="12"         >Queen</option>
+    <option value="11"         >Jack </option>
+    <option value="10"         >Ten  </option>
+    <option value="09"         >Nine </option>
+    <option value="08"         >Eight</option>
+    <option value="07"         >Seven</option>
+    <option value="06"         >Six  </option>
+    <option value="05"         >Five </option>
+    <option value="04" selected>Four </option>
+    <option value="03"         >Three</option>
+    <option value="02"         >Two  </option>
+  </select><br>
+  <select id="su3" value="a">
+    <option value="a">Hearts    </option>
+    <option value="c">Clubs     </option>
+    <option value="d">Diamonds  </option>
+    <option value="s">Spades    </option>
+  </select>
+  </td>
+  <td>    
+  <select id="va4" value="05">
+    <option value="14"         >Ace  </option>
+    <option value="13"         >King </option>
+    <option value="12"         >Queen</option>
+    <option value="11"         >Jack </option>
+    <option value="10"         >Ten  </option>
+    <option value="09"         >Nine </option>
+    <option value="08"         >Eight</option>
+    <option value="07"         >Seven</option>
+    <option value="06"         >Six  </option>
+    <option value="05" selected>Five </option>
+    <option value="04"         >Four </option>
+    <option value="03"         >Three</option>
+    <option value="02"         >Two  </option>
+  </select><br>
+  <select id="su4" value="a">
+    <option value="a">Hearts    </option>
+    <option value="c">Clubs     </option>
+    <option value="d">Diamonds  </option>
+    <option value="s">Spades    </option>
+  </select>
+  </td>
+  <td>    
+  <select id="va5" value="14">
+    <option value="14" selected>Ace  </option>
+    <option value="13"         >King </option>
+    <option value="12"         >Queen</option>
+    <option value="11"         >Jack </option>
+    <option value="10"         >Ten  </option>
+    <option value="09"         >Nine </option>
+    <option value="08"         >Eight</option>
+    <option value="07"         >Seven</option>
+    <option value="06"         >Six  </option>
+    <option value="05"         >Five </option>
+    <option value="04"         >Four </option>
+    <option value="03"         >Three</option>
+    <option value="02"         >Two  </option>
+  </select><br>
+  <select id="su5" value="a">
+    <option value="a">Hearts    </option>
+    <option value="c">Clubs     </option>
+    <option value="d">Diamonds  </option>
+    <option value="s">Spades    </option>
+  </select>
+  </td>
+  </tr>
+</table>
+<div id="out">Your call will appear here.</div><br>
+  <input id="call" type="button" value="Call Best"/>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

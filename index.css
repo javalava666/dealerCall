@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  border: 6px double purple;
+  border-radius: 20px;
+  width: 550px;
+  height: 275px;
+  background: forestgreen;
+  padding: 5px}
+input {
+  background: navy;
+  border-radius: 20px;
+  color: gold;
+  width: 150px;
+  height: 75px;
+  font-family: Arial, sans-serif;
+  font-size: 18pt;
+  font-weight: bold;
+  padding: 5px}
+select {
+  background: black;
+  font-family: Arial, sans-serif;
+  font-size: 11pt;
+  font-weight: bold;
+  color: yellow;
+  width: 105px;
+  padding: 5px}
+div {
+  font-family: Arial, sans-serif;
+  font-size: 18pt;
+  font-weight: bolder;
+  color: silver;
+  padding: 5px}
+p {
+  font-family: Arial, sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+  color: silver;
+  padding: 5px}
