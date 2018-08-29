@@ -5,11 +5,11 @@
   margin: 0 auto;
   text-align: center;
   font-family: Arial, sans-serif;
-  font-size: 14pt;
+  font-size: 12pt;
   font-weight: bold;
   border: 2px double purple;
   border-radius: 10px;
-  padding: 10px}
+  padding: 5px}
 table {
   margin: 0 auto}
 input {
@@ -19,7 +19,7 @@ input {
 select {
   background: black;
   color: yellow;
-  width: 100px}
+  width: 90px}
 p, #out {
-  margin-top: 10px;
+  margin-top: 5px;
   color: silver}
