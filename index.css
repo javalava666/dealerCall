@@ -1,7 +1,7 @@
 #container {
-  background: forestgreen;
-  width: 100%;
-  height: 100%;
+  background-image: url("bg.png");
+  width: 800px;
+  height: 390px;
   margin: 0 auto;
   text-align: center;
   font-family: Arial, sans-serif;
