@@ -1,13 +1,13 @@
 #container {
   background-image: url("bg.png");
-  width: 800px;
-  height: 390px;
+  width: 500px;
+  height: 250px;
   margin: 0 auto;
   text-align: center;
   font-family: Arial, sans-serif;
-  font-size: 12pt;
+  font-size: 10pt;
   font-weight: bold;
-  border: 2px double purple;
+  border: 2px double silver;
   border-radius: 10px;
   padding: 5px}
 table {
@@ -18,8 +18,8 @@ input {
   color: gold}
 select {
   background: black;
-  color: yellow;
-  width: 90px}
+  color: silver;
+  width: 92px}
 p, #out {
   margin-top: 5px;
   color: silver}
